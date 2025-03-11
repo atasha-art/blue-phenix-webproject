@@ -1,0 +1,17 @@
+body {
+    background-color: blue;
+}
+
+form {
+         height: 100px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     
+}
+textarea {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet/external.css">
+    <style>
+        body {
+            background-color: green;
+        }
+        .cssG {
+            color: beige;
+            font-weight:bolder; 
+        }
+        #firstP {
+            color:antiquewhite;
+            text-transform: uppercase;
+        }
+        label, input{
+            display:block;
+        }
+        input[type="checkbox"],input[type="radio"] {
+            display: inline;
+        }
+        input[type="email"] {
+            height:30px;
+            width:300px;
+            font-size:16px;
+            padding:5px;
+            border-radius:10px;
+            color:brown;
+        }
+        input[type="password"] {
+            height:30px;
+            width:300px;
+            font-size:16px;
+            padding:5px;
+            border-radius:10px;
+            color:brown;    
+        }
+        
+
+        
+        
+          
+          
+    </style>
+</head>
+<body style="background-color: gray;">
+    <p id="firstP">This is the 1st Paragraph</p>
+    <p class="cssG">This is the 2nd Paragraph</p>
+    <p class="cssG">This is the 3rd Paragraph</p>
+
+    <form action="">
+        <label for=""> Username </label>
+        <input type="email">
+
+    </form>
+    <form action="">
+        <label for="">Password</label>
+        <input type="password">
+    </form>
+
+     </form>
+    <form action="">
+        <label for="">Check me</label>
+        <input type="checkbox"> one 
+        <input type="checkbox"> two
+        <input type="checkbox"> three
+        <input type="checkbox"> four
+    </form>
+    <form action="">
+        <label for="">Gender</label>
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Male
+    </form>
+
+
+    <textarea rows="25" cols="50"></textarea>
+    <input type="Submit">
+
+</body>
+
+
+</html>
